@@ -8,6 +8,10 @@
 import SwiftUI
 
 public struct WelcomeView: View {
+    public init() {
+        // for remote use
+    }
+    
     public var body: some View {
         Text("Welcome to ") +
         Text("My Library")
